@@ -15,6 +15,35 @@ export const PERSONAL_INFO = {
   statusBadge: 'Available for Tech Opportunities & Collaborations',
 };
 
+export const projects = [
+  {
+    id: "satquery-ai",
+    title: "SatQuery AI",
+    // Update the image path here:
+    image: "/assets/aistudio/satquery_ai_mockup.jpg", 
+    // ... other fields
+  },
+  {
+    id: "assignment-system",
+    title: "Online Assignment Submission System",
+    image: "/assets/aistudio/assignment_system_mockup.jpg",
+  },
+  {
+    id: "bmw-showcase",
+    title: "BMW Aesthetic Showcase",
+    image: "/assets/aistudio/bmw_showcase_mockup.jpg",
+  },
+  {
+    id: "booking-platform",
+    title: "IPL & Movie Ticket Booking Platform",
+    image: "/assets/aistudio/booking_platform_mockup.jpg",
+  },
+  {
+    id: "graphics-editor",
+    title: "2D Graphics Editor in C",
+    image: "/assets/aistudio/graphics_editor_mockup.jpg",
+  }
+];
 export const TECH_TICKER = [
   'React',
   'Vite',
