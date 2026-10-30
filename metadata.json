@@ -2,5 +2,7 @@
   "name": "Rachana H T — Portfolio",
   "description": "B.Tech AI & Data Science Developer Portfolio for Rachana H T featuring intelligent systems, full-stack applications, and architectural project case studies.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

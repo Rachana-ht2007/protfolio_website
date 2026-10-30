@@ -9,6 +9,15 @@ interface ProjectCardProps {
   index: number;
 }
 
+// Helper to ensure images from the public folder load correctly with leading slash
+const getImagePath = (imagePath: string) => {
+  if (!imagePath) return '';
+  if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+    return imagePath;
+  }
+  return imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
+};
+
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   project,
   onOpenModal,
@@ -40,7 +49,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           className="relative rounded-xl overflow-hidden aspect-[16/10] bg-[#E9E6DF] border border-[#E2DDD4] mb-5 cursor-pointer group/img"
         >
           <img
-            src={project.image}
+            src={getImagePath(project.image)}
             alt={project.title}
             className="w-full h-full object-cover object-center transition-transform duration-500 group-hover/img:scale-105"
             referrerPolicy="no-referrer"
