@@ -1,0 +1,244 @@
+---
+name: Tectonic Atelier
+colors:
+  surface: '#fcf9f4'
+  surface-dim: '#dcdad5'
+  surface-bright: '#fcf9f4'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3ee'
+  surface-container: '#f0ede9'
+  surface-container-high: '#ebe8e3'
+  surface-container-highest: '#e5e2dd'
+  on-surface: '#1c1c19'
+  on-surface-variant: '#45474c'
+  inverse-surface: '#31302d'
+  inverse-on-surface: '#f3f0eb'
+  outline: '#75777d'
+  outline-variant: '#c5c6cd'
+  surface-tint: '#545f73'
+  primary: '#091426'
+  on-primary: '#ffffff'
+  primary-container: '#1e293b'
+  on-primary-container: '#8590a6'
+  inverse-primary: '#bcc7de'
+  secondary: '#505f76'
+  on-secondary: '#ffffff'
+  secondary-container: '#d0e1fb'
+  on-secondary-container: '#54647a'
+  tertiary: '#17140a'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#2c281e'
+  on-tertiary-container: '#968f81'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d8e3fb'
+  primary-fixed-dim: '#bcc7de'
+  on-primary-fixed: '#111c2d'
+  on-primary-fixed-variant: '#3c475a'
+  secondary-fixed: '#d3e4fe'
+  secondary-fixed-dim: '#b7c8e1'
+  on-secondary-fixed: '#0b1c30'
+  on-secondary-fixed-variant: '#38485d'
+  tertiary-fixed: '#eae1d2'
+  tertiary-fixed-dim: '#cec6b6'
+  on-tertiary-fixed: '#1f1b12'
+  on-tertiary-fixed-variant: '#4b463b'
+  background: '#fcf9f4'
+  on-background: '#1c1c19'
+  surface-variant: '#e5e2dd'
+typography:
+  display:
+    fontFamily: Newsreader
+    fontSize: 56px
+    fontWeight: '400'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-mobile:
+    fontFamily: Newsreader
+    fontSize: 40px
+    fontWeight: '400'
+    lineHeight: 48px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Newsreader
+    fontSize: 40px
+    fontWeight: '400'
+    lineHeight: 48px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Newsreader
+    fontSize: 32px
+    fontWeight: '400'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Newsreader
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Newsreader
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+    letterSpacing: 0em
+  title:
+    fontFamily: Hanken Grotesk
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.005em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes an architectural, editorial identity tailored for a technical portfolio. The visual personality communicates rigor, spatial discipline, and deliberate material craftsmanship. It balances the structural weight of high-end architectural documentation with modern digital product engineering.
+
+The emotional target is contemplative confidence: calm, authoritative, tactile, and intellectually mature. It avoids transient trends, playful rounded aesthetics, aggressive brutalism, or vibrant neon accents. Instead, it grounds interaction in structural permanence, rhythmic alignment, and subtle material layering.
+
+The visual style synthesizes:
+- **Architectural Structuralism:** Precise 1-pixel grid intersections, drafting-table alignment marks, clean structural dividers, and deliberate proportional hierarchies.
+- **Warm Mineral Tactility:** A base of natural lime plaster, warm sand, and cut stone offset by cold structural slate and technical charcoal.
+- **Refined Editorial Clarity:** High-contrast classical serif headings paired with clean, engineered sans-serif body typography and monospaced technical metadata accents.
+- **Controlled Material Depth:** Low-opacity glassmorphic scrims and whisper-soft diffused shadows simulating natural directional daylight falling across stone surfaces.
+
+## Colors
+
+The palette derives from physical building materials: warm lime wash, limestone, tempered glass, oiled slate, and deep architectural ironwork. Saturation is deliberately suppressed across all planes to allow technical artifacts, schematics, and project imagery to hold primary focal power.
+
+### Surface Roles
+- **Canvas Base (`#FAF7F2`):** Primary background plane. A warm natural linen/cream tone providing daylight warmth without sterile digital white.
+- **Surface Elevation 1 (`#F4F1EA`):** Secondary container surface for cards, inset sections, and structural sidebars.
+- **Surface Elevation 2 (`#E9E6DF`):** High-density component surface, interactive controls, hover wells, and segmented switch tracks.
+- **Surface Accent / Substrate (`#D8D2C6` & `#C5BDAE`):** Warm stone indicators, drafting line accents, structural pill backings, and subtle technical tags.
+
+### Text & Glyph Hierarchy
+- **Text Primary (`#0F172A`):** Pure deep charcoal iron for all major headings, primary metrics, and focal copy. Ensures uncompromising WCAG AAA readability against stone and cream backgrounds.
+- **Text Secondary (`#1E293B`):** Deep slate-tinted charcoal for narrative body copy and technical case studies.
+- **Text Muted (`#64748B`):** Balanced mid-slate for labels, metadata, captions, inactive navigation anchors, and structural annotations.
+- **Border Subtle (`#E2DDD4`):** Whisper-thin container boundaries and sub-dividers.
+- **Border Structural (`#64748B` at 20–40% alpha or solid `#94A3B8`):** Active bounds, structural grid lines, crosshairs, and focus indicators.
+
+Pink, magenta, and saturated chromatic neon accents are strictly prohibited. Feedback states rely entirely on tonal contrasts, slate shifts, or deep forest/mineral adjustments within this controlled spectrum.
+
+## Typography
+
+The typography uses a disciplined tripartite typographic framework:
+1. **Newsreader (Display/Headlines):** Imparts editorial grace, intellectual authority, and humanistic geometry. Used in optical sizes with deliberate line-heights for major statements, section markers, and hero narratives.
+2. **Hanken Grotesk (Body & Structural Interfaces):** An exceptionally precise, neutral grotesk providing razor-sharp structural legibility across long-form architecture documents, case studies, and descriptive UI flows.
+3. **JetBrains Mono (Metadata, Indicators & Code):** Acts as the architectural metric standard. Handles commit tags, system metrics, dates, breadcrumbs, parameters, and status indicators.
+
+Always maintain strict horizontal alignment. Headings must avoid arbitrary tracking; monospace labels should use subtle uppercase transformations with increased tracking to evoke engineering drafting notations.
+
+## Layout & Spacing
+
+The layout philosophy mirrors an architectural drawing plate: an underlying 12-column dynamic framework organized around rigid visual axes, consistent baseline alignments, and generous breathing room.
+
+### Layout Principles
+- **Grid Architecture:** Desktop operates on a 12-column grid with a maximum structural width of `1280px` centered within the viewport. Tablet downscales to an 8-column grid (`768px` to `1024px`), and mobile switches to a single- or 4-column flow (`<768px`).
+- **Drafting Axes:** Structural dividers (1px `#E2DDD4` lines) extend edge-to-edge across modules, establishing clear horizontal planes. Grid lines may feature subtle typographic coordinate markers (`01 //`, `LOC: ARCH`, `SYS: OK`) rendered in `label-sm`.
+- **Vertical Rhythm:** Strict multiples of `8px` drive spacing. Paragraphs within case studies maintain a 24px vertical separation, while section tiers employ a clean `64px` to `96px` expansion.
+- **Reflow Discipline:** As columns collapse on smaller viewports, cards flatten along the vertical axis without altering edge radii, maintaining explicit internal spacing (`space-lg` desktop to `space-md` mobile).
+
+## Elevation & Depth
+
+Visual depth avoids excessive spatial z-indexes or heavy drop shadows, relying instead on planar stratification, atmospheric refraction, and razor-sharp material separation.
+
+### Elevation Levels
+- **Level 0 (Bedrock Canvas):** Base tone `#FAF7F2`. Static, opaque, solid.
+- **Level 1 (Structural Inset / Plate):** `#F4F1EA` with a 1px solid `#E2DDD4` perimeter outline. Uses an ambient daylight occlusion shadow: `0 1px 3px rgba(15, 23, 42, 0.03), 0 6px 16px -4px rgba(100, 116, 139, 0.05)`.
+- **Level 2 (Active Artifact / Hover State):** `#FDFBF7` surface supported by an elevated shadow: `0 4px 12px -2px rgba(15, 23, 42, 0.04), 0 16px 32px -8px rgba(30, 41, 59, 0.06)`. Border sharpens to `#64748B` at 30% alpha.
+- **Level 3 (Suspended Glass Scrim):** Floating navigation headers, preview panels, and sticky control bars. Built using a translucent frosted composite: `background: rgba(250, 247, 242, 0.82)`, `backdrop-filter: blur(12px) saturate(140%)`, bounded by a hairline border: `1px solid rgba(100, 116, 139, 0.15)`.
+
+Ambient lighting is modeled as diffused, high-altitude northern daylight: cast shadows are cool-tinted with soft slate `#64748B` rather than dirty black, dispersing softly over stone surfaces.
+
+## Shapes
+
+The geometric framework balances technical precision with organic stone softness. The system uses a disciplined `roundedness: 2` scale, standardizing base surfaces to `12px` (`0.75rem`) and outer structural cards to `16px` (`1rem`).
+
+- **Base Elements (Buttons, Inputs, Badges):** `8px` (`0.5rem`) for compact structural integrity.
+- **Cards, Modals & Code Windows:** `12px` to `16px` (`rounded-lg` at `1rem`) corner radius. This gives panels an architectural finish—firm and engineered, never bulbous.
+- **Technical Status Pills:** Pill-radius (`9999px`) is reserved solely for small, single-line categorical chips, status lights, and live metrics to differentiate system metadata from structural containers.
+- **Geometry Rules:** Inner elements nested within `16px` rounded parents must step down to `8px` or `10px` to maintain consistent concentric border radiuses.
+
+## Components
+
+### Buttons
+- **Primary:** Background `#1E293B`, label `#FAF7F2` (Hanken Grotesk 14px, weight 500). Padding: `10px 20px`. Border-radius: `8px`. Hover shifts to `#0F172A` accompanied by a micro-translate `transform: translateY(-1px)` and shadow expansion.
+- **Secondary / Architectural Outline:** Background `transparent` or `#FAF7F2`, 1px border `#64748B` (35% opacity), text `#1E293B`. Hover transitions surface to `#E9E6DF` and border to `#1E293B`.
+- **Text / Mono Link:** JetBrains Mono 12px, tracking `0.04em`, slate `#64748B`. Includes a trailing terminal arrow glyph (`→`) that shifts 3px rightward on hover. Underline is a persistent 1px rule in `#C5BDAE`.
+
+### Cards & Project Panels
+- **Container:** Background `#F4F1EA`, border `1px solid #E2DDD4`, radius `16px`. Internal padding: `space-xl` (desktop), `space-lg` (mobile).
+- **Header:** Features an integrated meta-bar: mono index indicator (`01 // ARCHITECTURE`), project scope badge, and primary Newsreader title.
+- **Interaction:** Hover induces a transition to surface `#FDFBF7`, border `#64748B` (25% opacity), and elevation Level 2.
+
+### Chips & Badges
+- **Specification Chips:** JetBrains Mono 11px uppercase, padding `4px 10px`, radius `9999px`. Surface `#E9E6DF`, text `#1E293B`, subtle border `1px solid #D8D2C6`.
+- **System Status Indicators:** Small 6px solid circular dot accompanied by uppercase mono label. Steady slate-green `#475569` or stone `#64748B`—no flashing neons.
+
+### Inputs & Fields
+- **Container:** Background `#FAF7F2`, border `1px solid #D8D2C6`, radius `8px`, typography `Hanken Grotesk 15px`.
+- **Focus State:** Border shifts cleanly to `#1E293B` (1.5px), accompanied by an ambient slate ring: `0 0 0 3px rgba(100, 116, 139, 0.12)`. No standard blue outline.
+- **Placeholder:** `#94A3B8` in regular weight.
+
+### Checkboxes & Radios
+- **Frame:** 18px square (checkbox) or circle (radio), 1.5px solid `#64748B`, radius `4px` or `50%`.
+- **Checked State:** Surface fills with `#1E293B`; internal mark is clean bone-white `#FAF7F2`. Transition is sharp (120ms ease-out).
+
+### Lists & Technical Tables
+- **Dividers:** 1px horizontal rule in `#E2DDD4`. Rows alternate with an invisible-to-subtle hover highlight of `#F4F1EA`.
+- **Columns:** Monospace metrics align flush-right; narrative descriptions align flush-left.
+
+### Specialized Component: Architectural Schematic Drawer
+- A collapsible drawer displaying technical project architecture, system diagrams, and stack specifications. Backed by frosted stone scrim (Elevation 3), framed in 1px slate accents with structural corner tick-marks (`+` drafting reticles) in the corners.
